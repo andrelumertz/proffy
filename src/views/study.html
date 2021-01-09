@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proffy | Sua plataforma de estudo</title>
+    <link rel="icon" href="/public/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/public/styles/partials/main.css">
+    <link rel="stylesheet" href="/public/styles/partials/page-study.css">
+    <link rel="stylesheet" href="/public/styles/partials/header.css">
+    <link rel="stylesheet" href="/public/styles/partials/forms.css">
+</head>
+
+<body id="page-study">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/src/views/index.html">
+                    <img src="/public/images/icons/back.svg" alt="voltar">
+                </a>
+                <img src="/public/images/logo.svg" alt="Proffy">
+            </div>
+
+            <div class="header-content">
+                <strong>Esses são os Proffys disponiveis, da um confere !!</strong>
+                <form id="search-teachers">
+                    <div class="select-block">
+                        <label for="subject">Matéria</label>
+                        <select name="subject" id="subject">
+                            <option value=""></option>
+                            <option value="1">Artes</option>
+                            <option value="2">Biologia</option>
+                            <option value="3">Ciencias</option>
+                            <option value="4">Educ Fisica</option>
+                            <option value="5">Fisica</option>
+                            <option value="6">Geografia</option>
+                            <option value="7">Historia</option>
+                            <option value="8">Matematica</option>
+                            <option value="9">Portugues</option>
+                            <option value="10">Quimica</option>
+                        </select>
+                    </div>
+                
+                    <div class="select-block">
+                        <label for="weekday">Dia da semana</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Segunda</option>
+                            <option value="2">Terça</option>
+                            <option value="3">Quarta</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta</option>
+                            <option value="6">Sabado</option>
+                            </select>
+                            </div>
+                                
+                    <div class="input-block">
+                        <label for="time">Hora</label>
+                        <input name="time" id="time" type="time">
+                    </div>
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+
+        </header>
+
+        <main>
+<article class="teacher-item">
+    <header>
+        <img src="https://avatars1.githubusercontent.com/u/69599938?s=460&u=ea7f25c6b980ef239665e5989215865d1dfb1e03&v=4" alt="André Lumertz">
+        <div>
+            <strong>André Lumertz</strong>
+        <span>Quimica</span></div>
+    </header>
+
+    <p>FHDGDJGHBDJGBDJGDJGDJGDJKGDKGDKGKGBDKGBDKGDBGKDBGDKBBDKVBKBKBDKG<br>fdgdgeegeteteyyyeyeyeyeye</p>
+    <footer>
+        <p>preço/hora<strong>R$ 20,00</strong></p>
+        <button class="button" type="button"> <img src="/public/images/icons/whatsapp.svg" alt="whatsapp">Entrar em contato</button>
+    </footer>
+</article>
+<article class="teacher-item">
+    <header>
+        <img src="https://avatars2.githubusercontent.com/u/6643122?s=460&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4"
+            alt="André Lumertz">
+        <div>
+            <strong>Mayk Britto</strong>
+            <span>Quimica</span></div>
+    </header>
+
+    <p>FHDGDJGHBDJGBDJGDJGDJGDJKGDKGDKGKGBDKGBDKGDBGKDBGDKBBDKVBKBKBDKG<br>fdgdgeegeteteyyyeyeyeyeye</p>
+    <footer>
+        <p>preço/hora<strong>R$ 20,00</strong></p>
+        <button class="button" type="button"> <img src="/public/images/icons/whatsapp.svg" alt="whatsapp">Entrar em contato</button>
+    </footer>
+</article>
+            <p class="no-results">Nenhum professor encontrado com a sua pesquisa.</p>
+        
+
+        </main>
+
+
+    </div>
+
+</body>
+
+</html>
